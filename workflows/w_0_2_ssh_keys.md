@@ -19,23 +19,17 @@ With SSH authentication you don't need to enter your credentials (GitHub usernam
 <kbd> cd ~ </kbd>  
 <kbd> pwd </kbd>
 
->my example
+>Go to your home directory
 ```bash
 cd ~
-pwd
-/Users/reshamashaikh
 ```
 
 #### Step 1b:  Go to `.ssh` directory
 <kbd> cd .ssh </kbd>  
 
->my example
+>To be sure you don't have any SSH key pair from earlier
 ```bash
-pwd
-/Users/reshamashaikh
 cd .ssh
-pwd
-/Users/reshamashaikh/.ssh 
 ```
 
 **Note:**  If you do not have the `.ssh` directory, you can create it
@@ -52,10 +46,8 @@ pwd
 	- <kbd> ssh-keygen</kbd>
 	- Hit  <kbd> enter  </kbd> **3 times**
 
->my example
+>Generate new SSH key pair
 ```bash
-% pwd 
-/Users/reshamashaikh/.ssh
 % ls
 % ssh-keygen
 Generating public/private rsa key pair.
@@ -97,6 +89,12 @@ Verify the key has been copied to the clipboard by printing the contents at your
 
 ## Windows Users
 ### Step 1:  [How to Create SSH Keys with PuTTY on Windows](https://www.digitalocean.com/docs/droplets/how-to/add-ssh-keys/create-with-putty/)
+
+
+
+## Linux Users/WSL Users on Windows
+
+Follow only the [Generating a new SSH Key](https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key) step
 
 ---
 

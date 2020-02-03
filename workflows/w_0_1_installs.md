@@ -12,7 +12,7 @@
 - Windows:
 	- Option 1:  [Power Shell](https://www.digitalcitizen.life/simple-questions-what-powershell-what-can-you-do-it)
 	- Option 2:  Git Bash
-	- Option 3:  use Ubuntu (must be installed prior to workshop)  (for advanced users)
+	- Option 3:  use Ubuntu on WSL (must be installed prior to workshop)  (for advanced users)
 - Linux
 	
 ## Step 2:  Install Git
