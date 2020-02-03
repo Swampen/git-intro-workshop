@@ -19,7 +19,7 @@ With SSH authentication you don't need to enter your credentials (GitHub usernam
 <kbd> cd ~ </kbd>  
 <kbd> pwd </kbd>
 
->Go to your home directory
+>example
 ```bash
 cd ~
 ```
@@ -27,7 +27,7 @@ cd ~
 #### Step 1b:  Go to `.ssh` directory
 <kbd> cd .ssh </kbd>  
 
->To be sure you don't have any SSH key pair from earlier
+>example
 ```bash
 cd .ssh
 ```
@@ -46,7 +46,7 @@ cd .ssh
 	- <kbd> ssh-keygen</kbd>
 	- Hit  <kbd> enter  </kbd> **3 times**
 
->Generate new SSH key pair
+>example
 ```bash
 % ls
 % ssh-keygen
@@ -97,6 +97,8 @@ Verify the key has been copied to the clipboard by printing the contents at your
 ### Step 1: Follow only the [Generating a new SSH Key](https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key) step
 
 ### Step 2: Copy the SSH public key
+
+>example
 
 ```bash
 cat ~/.ssh/id_rsa.pub
