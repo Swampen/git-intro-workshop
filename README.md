@@ -35,6 +35,6 @@ This workshop covers Git CLI (command line interface, *not Git GUI*).
      - clone an organization's repo
      - make changes and submit a pull request
      
-### [Workflows](workflows/)
+### [Workflows](workflows/README.md)
 * Follow along these workflows
 
