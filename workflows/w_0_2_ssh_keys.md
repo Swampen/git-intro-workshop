@@ -94,7 +94,15 @@ Verify the key has been copied to the clipboard by printing the contents at your
 
 ## Linux Users/WSL Users on Windows
 
-Follow only the [Generating a new SSH Key](https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key) step
+### Step 1: Follow only the [Generating a new SSH Key](https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key) step
+
+### Step 2: Copy the SSH public key
+
+```bash
+cat ~/.ssh/id_rsa.pub
+```
+
+* Copy the output in the terminal. Everything including ssh-rsa and user@machine.
 
 ---
 
