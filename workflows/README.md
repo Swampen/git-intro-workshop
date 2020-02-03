@@ -8,7 +8,7 @@
 ## GitHub and Git
 
 ### GitHub    -->  [browser]
-GitHub is a **website** that allows you to upload your git respositories online. It allows you to have a backup of your files, has a visual interface to navigate your repos, and it allows other people to be able to view your repos. 
+GitHub is a **website** that allows you to upload your git repositories online. It allows you to have a backup of your files, has a visual interface to navigate your repos, and it allows other people to be able to view your repos. 
 
 GitHub is a central place to store your repo, so others can clone it, push to it, and pull from it.
 

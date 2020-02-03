@@ -13,7 +13,7 @@
 ---
 
 ## Step 0:  Configure user
-REMINDER:  did you [configure the user name](https://github.com/reshamas/git-intro-workshop/blob/master/workflows/w_0_3_setup.md#step-1--configure-user-on-local-computer)?
+REMINDER:  did you [configure the user name](./w_0_3_setup.md#step-1--configure-user-on-local-computer)?
 
 ## Step 1:  create a repo (on GitHub)
 - Click on `+` next to your profile picture
@@ -98,7 +98,7 @@ cd ~/Desktop/gitsample
 ```bash
 pwd
 /Users/reshamashaikh/Desktop/gitsample
-```  
+```
 
 ## Step 5:  clone the repo  
 <kbd> git clone <url_name> </kbd> 
@@ -152,7 +152,6 @@ This step copies changes from a remote repository to a local repository.
 - create `name.py` file on GitHub 
 - <kbd> git pull </kbd> to sync repo
 
-
 ---
 
 # :arrow_right_hook: Why use branches?
@@ -170,7 +169,7 @@ git branch
 * master
 ```
 
- 
+
 ## Step 10:  create a working branch
 <kbd> git branch <branch_name> </kbd>
 	
@@ -222,10 +221,10 @@ total 8
 ## Git Flow 
 | #     | Command                   | Step  | Description      |
 |-------|---------------------------| -----|------------------|
-|  1    | `git add <filename>`      | begin tracking a file | adds a change in the working directory to the staging area; tells Git that you want to include updates to a particular file in the next commit.  |    
-|  2    | `git commit -m "message"` | log the change | changes are recorded in Git (interaction is with local repo) |  
-|  3    | `git push`                | finalize the change | changes are pushed from Git (local, terminal) to GitHub (browser account, remote) | 
- 
+|  1    | `git add <filename>`      | begin tracking a file | adds a change in the working directory to the staging area; tells Git that you want to include updates to a particular file in the next commit.  |
+|  2    | `git commit -m "message"` | log the change | changes are recorded in Git (interaction is with local repo) |
+|  3    | `git push`                | finalize the change | changes are pushed from Git (local, terminal) to GitHub (browser account, remote) |
+
 **Note:**  It is better to make many commits with smaller changes rather than of one commit with massive changes: small commits are easier to read and review.
 
 
@@ -244,7 +243,7 @@ Untracked files:
 	mercury.md
 nothing added to commit but untracked files present (use "git add" to track)
 ```
-    
+
 ## Step 15:  add/stage a file
 <kbd> git add <file_name> </kbd>   
 	
@@ -276,7 +275,7 @@ Changes to be committed:
 ```bash
 git commit -m 'adding first planet'
 ```
-	
+
 ```bash
 % git commit -m 'adding first planet'
 [practice 3950dd9] adding first planet
@@ -304,7 +303,7 @@ Changes to be committed:
 >my example
 ```bash
 git push origin practice
-```	
+```
 
 ```bash
 Counting objects: 3, done.
@@ -314,7 +313,7 @@ Writing objects: 100% (3/3), 273 bytes | 0 bytes/s, done.
 Total 3 (delta 0), reused 0 (delta 0)
 To https://github.com/reshamas/gitclass.git
  * [new branch]      practice -> practice
- ```
+```
 **Note:**  to `push` a "commit" is to "finalize the change":  
 - changes are pushed from Git (local, terminal) to GitHub (browser account, remote)
 
