@@ -32,7 +32,6 @@ This workshop covers Git CLI (command line interface, *not Git GUI*).
      - create a branch and work from it
      - undo Git changes
 * Collaborating
-     - clone an organization's repo
      - make changes and submit a pull request
      
 ### [Workflows](workflows/README.md)
