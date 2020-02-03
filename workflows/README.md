@@ -37,7 +37,6 @@ Git is a system for version control. It runs at the **command line on your local
 - avatar / "Your profile" 
 - avatar / "Settings"
 
-
 ---
 ## Setup
 
@@ -69,11 +68,7 @@ Git is a system for version control. It runs at the **command line on your local
   - add, update files at Git terminal and send changes up to GH
   - submit a pull request 
 
-## [Workflow 2](w_2_pull_request_org_repo.md): fork & update an organization repo 
-- fork/clone an organization's repo
-- add updates and submit a pull request
-
-## [Workflow 3](w_3_collaborating.md): add a collaborator to your repo and manage pull requests
+## [Workflow 2](w_2_collaborating.md): add a collaborator to your repo and manage pull requests
 - using the repo from Workflow 1, add a collaborator
 - the collaborator will make updates to your repo and submit pull requests
 - you will accept their pull requests
