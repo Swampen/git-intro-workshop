@@ -27,14 +27,4 @@ Confirm Git is installed by typing `git --version` on your terminal
 
 ## Step 3:  Sign up for a GitHub Account
 - [github.com](https://github.com/)
-- Save your user ID and password somewhere you can easily find it
-
-## Step 4:  Choose a Graphical Editor
-- Try Visual Studio Code
-	* [Visual Studio Code](https://visualstudio.microsoft.com/downloads/)
-- OR one of these other editors
-	* [Sublime Text 3](https://www.sublimetext.com/)
- 	* [Atom](https://atom.io/)
- 	* [Notepad++](https://notepad-plus-plus.org/) (for Windows)
-- R users:  can use RStudio's editor
 
