@@ -4,6 +4,8 @@
 
 ### Course Created by:  [Reshama Shaikh](https://reshamas.github.io) | [@reshamas](https://twitter.com/reshamas)
 
+### Modified  by: [Ole-Martin Heggen ](https://www.linkedin.com/in/ole-martin-heggen-9a4a26141/) | [@Swampen](https://github.com/Swampen)
+
 ---
 
 ### Installation
