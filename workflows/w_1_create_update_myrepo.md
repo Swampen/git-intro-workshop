@@ -300,7 +300,12 @@ To https://github.com/reshamas/gitclass.git
 
 * merge the `practice` branch to master
 
-<kbd>git merge practice </kbd>   
+<kbd>git merge practice </kbd>
+
+* **Note:** Make sure that your program still works after this step. Here stuff will breake if there are any conflicts.
+* then push your changes
+
+<kbd>git push</kbd>
 
 > this example demonstrates a good practice in merging 
 
@@ -311,6 +316,7 @@ Your branch is up to date with 'origin/master'.
 % git pull
 Already up to date.
 % git merge practice
+% git push
 ```
 
 
