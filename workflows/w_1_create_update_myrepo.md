@@ -108,10 +108,6 @@ origin	https://github.com/reshamas/gitclass.git (fetch)
 origin	https://github.com/reshamas/gitclass.git (push)
 ```
 
-
-**Example:**  
-* `origin`   [your forked repo] 
-
 **Note 1:**  
 
 * notice you have push and pull access  
@@ -151,7 +147,7 @@ git branch
 <kbd> git branch <branch_name> </kbd>
 	
 
->my example  
+>example  
 
 ```git
 git branch practice
@@ -159,6 +155,7 @@ git branch practice
 
 ## Step 11:  list branches
 <kbd> git branch </kbd>  
+
 >example
 ```git
 git branch
@@ -167,9 +164,9 @@ git branch
 ```
 
 ## Step 12:  switch to working branch
-<kbd> git checkout <branch_name> </kbd>  
+<kbd> git checkout <branch_name> </kbd> 
 
-example  
+>example
 
 ```git
 git checkout practice
@@ -184,22 +181,14 @@ git checkout practice
 	
 <kbd> touch mercury.md </kbd>  
 
->my example
+>example
+
 ```bash
-ls
-touch mercury.md
-```
-```bash
-ls
-total 8
--rw-r--r--  1   32 Nov 22 09:39 README.md
 % touch mercury.md
 % ls
 total 8
 -rw-r--r--  1   32 Nov 22 09:39 README.md
 -rw-r--r--  1    0 Nov 22 09:49 mercury.md
-
-	mercury.md
 ```
 
 ---
@@ -208,7 +197,7 @@ total 8
 ## Git Flow 
 | #     | Command                   | Step  | Description      |
 |-------|---------------------------| -----|------------------|
-|  1    | `git add <filename>`      | begin tracking a file | adds a change in the working directory to the staging area; tells Git that you want to include updates to a particular file in the next commit.  |
+|  1    | `git add <filename>` or `git add --all` (to add all files) | begin tracking a file | adds a change in the working directory to the staging area; tells Git that you want to include updates to a particular file in the next commit.  |
 |  2    | `git commit -m "message"` | log the change | changes are recorded in Git (interaction is with local repo) |
 |  3    | `git push`                | finalize the change | changes are pushed from Git (local, terminal) to GitHub (browser account, remote) |
 
