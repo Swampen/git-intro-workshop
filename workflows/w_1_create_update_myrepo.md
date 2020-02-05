@@ -31,6 +31,7 @@ REMINDER:  did you [configure the user name](./w_0_3_setup.md#step-1--configure-
 
 
 ## Step 2:  Let's add a couple of files
+**You will now do these steps in the browser**
 - Add a Markdown file:  `holiday.md`
   - add a line with an emoji
   - I added:  `Looking forward to the party :pizza: ! :smiley:_` :arrow_right: _Looking forward to the party :pizza: ! :smiley:_
