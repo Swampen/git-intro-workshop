@@ -112,19 +112,6 @@ origin	https://github.com/reshamas/gitclass.git (push)
 
 * notice you have push and pull access  
 
-**Note 2:**
-
-* to remove a remote:  <kbd> git remote rm <remote_name> </kbd>
-
-## Step 8:  update a repo
-This step copies changes from a remote repository to a local repository.  
-:key:  Do this **before starting work in a repository so you have the most up-to-date-changes.**   
-**Note:**  this is a good step to practice even though the first time you clone a repo it will already be up to date.   
-
-- <kbd> git pull </kbd> 
-- create `name.py` file in your repository on GitHub 
-- <kbd> git pull </kbd> to sync repo
-
 ---
 
 # :arrow_right_hook: Why use branches?
@@ -134,7 +121,7 @@ This step copies changes from a remote repository to a local repository.
 - More details can be found here:  [branches](../git_6_branches.md)
 
 
-## Step 9:  list branches
+## Step 8:  list branches
 <kbd> git branch </kbd>  
 >example
 ```git
@@ -143,7 +130,7 @@ git branch
 ```
 
 
-## Step 10:  create a working branch
+## Step 9:  create a working branch
 <kbd> git branch <branch_name> </kbd>
 	
 
@@ -153,7 +140,7 @@ git branch
 git branch practice
 ```
 
-## Step 11:  list branches
+## Step 10:  list branches
 <kbd> git branch </kbd>  
 
 >example
@@ -163,7 +150,7 @@ git branch
   practice
 ```
 
-## Step 12:  switch to working branch
+## Step 11:  switch to working branch
 <kbd> git checkout <branch_name> </kbd> 
 
 >example
@@ -175,7 +162,7 @@ git checkout practice
 
 
 
-## Step 13:  create a file
+## Step 12:  create a file
 <kbd>  ls </kbd>  
 <kbd> touch <file_name> </kbd>  
 	
@@ -208,7 +195,7 @@ total 8
 <img src="../images/git_shopping_cart.jpg" width="99%" height="99%" />
 </p>
 
-## Step 14:  get status of repo
+## Step 13:  get status of repo
 <kbd> git status </kbd>  
 >example
 ```bash
@@ -220,9 +207,10 @@ Untracked files:
 nothing added to commit but untracked files present (use "git add" to track)
 ```
 
-## Step 15:  add/stage a file
+## Step 14:  add/stage a file
 <kbd> git add <file_name> </kbd>   
 	
+
 >example  
 ```bash
 git add mercury.md 
@@ -232,7 +220,7 @@ git add mercury.md
 - adds a change in the working directory to the staging area
 - tells Git that you want to include updates to a particular file in the next commit
 
-## Step 16:  get status of repo
+## Step 15:  get status of repo
 <kbd> git status </kbd>  
 >example
 ```bash
@@ -244,7 +232,7 @@ Changes to be committed:
 	new file:   mercury.md
 ```
 
-## Step 17:  commit a file  
+## Step 16:  commit a file  
 <kbd> git commit -m 'message' </kbd>  
 	
 >example
@@ -261,7 +249,7 @@ git commit -m 'adding first planet'
 **Note:**  to `commit` a file is to "log the change":  
 - changes are recorded in Git (interaction is with local repo)
 
-## Step 18:  get status of repo
+## Step 17:  get status of repo
 <kbd> git status </kbd>  
 >example
 ```bash
@@ -273,12 +261,13 @@ Changes to be committed:
 	new file:   mercury.md
 ```
 
-## Step 19:  push changes to your 'working branch' 
-<kbd> git push <remote_name> <branch_wip> </kbd>  
+## Step 18:  push changes to your 'working branch' 
+<kbd> git push --set-upstream <remote_name> \<branch> </kbd>  
 	
+
 >example
 ```bash
-git push origin practice
+git push --set-upstream origin practice
 ```
 
 ```bash
@@ -293,12 +282,42 @@ To https://github.com/reshamas/gitclass.git
 **Note:**  to `push` a "commit" is to "finalize the change":  
 - changes are pushed from Git (local, terminal) to GitHub (browser account, remote)
 
-## Step 20:  look at files on working branch (on GitHub)
+## Step 19:  look at files on working branch (on GitHub)
 **Note:**  we are on GitHub in browser
 - go to repo
 - may want to toggle "Branch"
 	
-## Step 21:  submit pull request (on GitHub)
+## Step 20: merge your changes to the master branch
+
+* now you want to commit your changes from the practice branch, to the master branch
+
+<kbd> git checkout master </kbd>
+
+* make sure you have the newest master branch
+
+<kbd> git pull </kbd>   
+
+* merge the `practice` branch to master
+
+<kbd>git merge practice </kbd>   
+
+> this example demonstrates a good practice in merging 
+
+```git
+% git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+% git pull
+Already up to date.
+pit merge practice
+```
+
+
+
+
+
+## Step 20 - alternative:  submit pull request (on GitHub)
+
 Go to GitHub and refresh your browser.  
 
 Select green button "Compare and pull request"  
@@ -307,7 +326,7 @@ Select green button "Compare and pull request"
 ---
 
 ## Summary of Steps
-<kbd> cd ~/Desktop/gitsample </kbd>  
+<kbd> cd ~/Desktop/gitsample </kbd>   
 <kbd>  pwd </kbd>   
 <kbd> git clone https://github.com/swampen/gitclass.git </kbd>   
 <kbd> cd gitclass </kbd>   
