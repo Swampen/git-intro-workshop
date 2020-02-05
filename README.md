@@ -37,3 +37,8 @@ This workshop covers Git CLI (command line interface, *not Git GUI*).
 ### [Workflows](workflows/README.md)
 * Follow along these workflows
 
+### <u>Useful links:</u>
+
+* [Useful Linux commands](https://www.pcsuggest.com/basic-linux-commands/)
+
+* [Useful Git guides](./extra_resources/resource_git_tutorials.md)
