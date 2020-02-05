@@ -46,16 +46,13 @@ Git is a system for version control. It runs at the **command line on your local
 - GitHub account
 - editor
 
-### [Workflow 0.2](w_0_2_ssh_keys.md): SSH keys setup 
+### [Workflow 0.2](w_0_2_ssh_keys.md): SSH keys setup (optional)
 - create `ssh` keys
 - add `ssh` key to GitHub
 
 ### [Workflow 0.3](w_0_3_setup.md): general setup (required)
 - configure user
 - set up working directory
-
-### [Workflow 0.4](w_0_4_questionnaire.md): questionnaire  
-- complete questionnaire
 
 ---
 
