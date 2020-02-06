@@ -1,7 +1,7 @@
 # Workflow 2:  Collaborating
 
 ## Step 1:  Setting up the repo
-- Follow Step 1 from Workflow 1 [create a project repo on GH](./w_1_create_update_myrepo.md#step-1--create-a-repo-on-github)
+- Follow Step 1 from Workflow 1 [create a project repo (on GitHub)](./w_1_create_update_myrepo.md#step-1--create-a-repo-on-github)
   
 ## Step 2:  Collaborating with Others
 - Have your classmate fork and clone your repo

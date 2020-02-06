@@ -14,7 +14,6 @@
 
 
 
-
 ---
 
 ## Step 1: Let's "clone" a repo from GitHub to our terminal
@@ -38,9 +37,9 @@ cd ~/Desktop/gitsample
 <kbd> git clone <url_name> </kbd> 
 >my example
 ```bash
-git clone git@github.com:reshamas/git-intro-workshop.git
+git clone git@github.com:swampen/git-intro-workshop.git
 ```
-  
+
 ## Step 4:  `cd` into the repo
 <kbd> cd <repo_name> </kbd>
 >my example

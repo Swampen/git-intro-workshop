@@ -62,10 +62,10 @@ Git is a system for version control. It runs at the **command line on your local
 ## [Workflow 1](w_1_create_update_myrepo.md): create & update your repo
 - create repo on GitHub
   - add, update files on GitHub
-- clone (copy) GH repo to local computer
+- clone (copy) GitHub repo to local computer
   - look at remotes
   - work with branches
-  - add, update files at Git terminal and send changes up to GH
+  - add, update files at Git terminal and send changes up to GitHub
   - submit a pull request 
 
 ## [Workflow 2](w_2_collaborating.md): add a collaborator to your repo and manage pull requests

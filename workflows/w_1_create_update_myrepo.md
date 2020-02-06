@@ -1,14 +1,14 @@
 # Workflow 1:  Create and Update My Repo
 
 #### This is your checklist:
-- [ ] Create a repo on GitHub (GH)
+- [ ] Create a repo on GitHub
 - [ ] Clone a repo
 - [ ] Update a repo 
 - [ ] Look at remotes
 - [ ] Create a branch
 - [ ] Switch to another branch
-- [ ] Push changes to GH from terminal
-- [ ] Submit a pull request (PR) on GH
+- [ ] Push changes to GitHubfrom terminal
+- [ ] Submit a pull request (PR) on GitHub
 
 ---
 
